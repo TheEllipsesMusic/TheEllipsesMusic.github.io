@@ -1,7 +1,7 @@
 <!-- The grid: four columns -->
 <div class="row">
   <div class="column">
-    <img src="1scan_002" alt="Nature" onclick="myFunction(this);">
+    <img src="1scan_002.png" alt="Nature" onclick="myFunction(this);">
   </div>
   <div class="column">
     <img src="1scan_005.png" alt="Snow" onclick="myFunction(this);">
