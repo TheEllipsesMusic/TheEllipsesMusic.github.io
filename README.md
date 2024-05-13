@@ -1,1 +1,27 @@
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1593490027&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-212798938" title="The Ellipses" target="_blank" style="color: #cccccc; text-decoration: none;">The Ellipses</a> · <a href="https://soundcloud.com/user-212798938/sets/third-rail" title="Third Rail" target="_blank" style="color: #cccccc; text-decoration: none;">Third Rail</a></div>
+<!-- The grid: four columns -->
+<div class="row">
+  <div class="column">
+    <img src="1scan_002.png" alt="Nature" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_snow.jpg" alt="Snow" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
+  </div>
+</div>
+
+<!-- The expanding image container -->
+<div class="container">
+  <!-- Close the image -->
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+  <!-- Expanded image -->
+  <img id="expandedImg" style="width:100%">
+
+  <!-- Image text -->
+  <div id="imgtext"></div>
+</div>
